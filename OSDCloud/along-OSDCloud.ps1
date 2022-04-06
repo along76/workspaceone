@@ -1,8 +1,8 @@
 Write-Host  -ForegroundColor Yellow "Starting along' Custom OSDCloud ..."
 cls
 Write-Host "===================== Main Menu =======================" -ForegroundColor Yellow
-Write-Host "================ Sup Foo =================" -ForegroundColor Yellow
-Write-Host "====================@along76 =====================" -ForegroundColor Yellow
+Write-Host "==================    Sup Foo      ====================" -ForegroundColor Yellow
+Write-Host "====================  @along76  =======================" -ForegroundColor Yellow
 Write-Host "=======================================================" -ForegroundColor Yellow
 Write-Host "1: Zero-Touch Win10 21H2 | English | Education"-ForegroundColor Yellow
 Write-Host "2: Zero-Touch Win11 21H2 | English | Education" -ForegroundColor Yellow
