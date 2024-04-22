@@ -17,7 +17,7 @@ Install-Module OSD -Force
 
 switch ($input)
 {
-    '1' { Start-OSDCloud -OSLanguage en-us -OSBuild 22H2 -OSEdition Education -ZTI } 
+    '1' { Start-OSDCloud -OSVersion 'Windows 10' -OSLanguage en-us -OSBuild 22H2 -OSEdition Education -ZTI } 
     '2' { Start-OSDCloud -OSVersion 'Windows 11' -OSLanguage en-us -OSBuild 23H2 -OSEdition Education -ZTI } 
     '3' { Start-OSDCloud	} 
     '4' { Exit		}
