@@ -6,12 +6,12 @@ Write-Host "====================  @along76  =======================" -Foreground
 Write-Host "=======================================================" -ForegroundColor Yellow
 
 
-Write-Host  -ForegroundColor Yellow "Loading Cloud-Win11-21H2-Zero-Touch-Install..."
+Write-Host  -ForegroundColor Yellow "Loading Cloud-Win11-23H2-Zero-Touch-Install..."
 
 Import-Module OSD -Force
 Install-Module OSD -Force
 
-Start-OSDCloud -OSVersion 'Windows 11' -OSLanguage en-us -OSBuild 21H2 -OSEdition Education -ZTI 
+Start-OSDCloud -OSVersion 'Windows 11' -OSLanguage en-us -OSBuild 23H2 -OSEdition Education -ZTI 
  
 
 wpeutil reboot
