@@ -23,4 +23,5 @@ switch ($input)
     '4' { Exit		}
 }
 
+Use-WindowsUnattend.audit.autopilot -verbose
 wpeutil reboot
