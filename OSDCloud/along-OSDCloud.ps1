@@ -24,4 +24,8 @@ switch ($input)
 }
 
 Set-OSDCloudUnattendAuditMode -verbose
+
+Copy-Item -Path "X:\Windows\IT" -Destination "C:\Windows\IT" -Recurse -Force
+Copy-Item -Path "X:\Windows\IT\Scripts\W11-unattend.xml" -Destination "C:\Windows\System32\Sysprep" -Recurse -Force
+Copy-Item -Path "X:\Windows\IT\Scripts\Run-W11SetupMenu.bat.lnk" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" -Recurse -Force
 wpeutil reboot
