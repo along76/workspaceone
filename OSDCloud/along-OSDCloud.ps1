@@ -23,5 +23,5 @@ switch ($input)
     '4' { Exit		}
 }
 
-Use-WindowsUnattend.audit.autopilot -verbose
+Set-OSDCloudUnattendAuditMode -verbose
 wpeutil reboot
