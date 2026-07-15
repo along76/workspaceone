@@ -6,7 +6,7 @@ Write-Host "====================  @along76  =======================" -Foreground
 Write-Host "=======================================================" -ForegroundColor Yellow
 
 
-Write-Host  -ForegroundColor Yellow "Loading Cloud-Win11-23H2-Zero-Touch-Install..."
+Write-Host  -ForegroundColor Yellow "Loading Cloud-Win11-25H2-Zero-Touch-Install..."
 
 Import-Module OSD -Force
 Install-Module OSD -Force
